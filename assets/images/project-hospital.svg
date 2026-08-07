@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="hospTitle">
+  <title id="hospTitle">Hospital and Clinic Management System</title>
+  <rect width="800" height="450" fill="#255a40"/>
+  <rect x="0" y="0" width="800" height="450" fill="#1a422d" opacity="0.4"/>
+  <circle cx="400" cy="205" r="90" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(400,205)">
+    <rect x="-70" y="-18" width="140" height="36" rx="8" fill="#ffb900"/>
+    <rect x="-18" y="-70" width="36" height="140" rx="8" fill="#ffb900"/>
+  </g>
+  <text x="400" y="360" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Hospital &amp; Clinic Management</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="parkTitle">
+  <title id="parkTitle">Digital Parking System</title>
+  <rect width="800" height="450" fill="#1a1a1a"/>
+  <g stroke="#333333" stroke-width="2">
+    <path d="M240 0 V450" /><path d="M400 0 V450" /><path d="M560 0 V450" />
+  </g>
+  <circle cx="400" cy="205" r="90" fill="#ffffff" opacity="0.06"/>
+  <text x="400" y="240" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="120" font-weight="700" fill="#ffb900">P</text>
+  <text x="400" y="360" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Digital Parking System</text>
+</svg>

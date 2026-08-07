@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="transTitle">
+  <title id="transTitle">Transportation System Platform</title>
+  <rect width="800" height="450" fill="#12291d"/>
+  <path d="M0 340 H800" stroke="#333333" stroke-width="3"/>
+  <path d="M60 340 V0" stroke="#1d4a34" stroke-width="2"/>
+  <path d="M740 340 V0" stroke="#1d4a34" stroke-width="2"/>
+  <circle cx="400" cy="200" r="90" fill="#ffffff" opacity="0.06"/>
+  <g transform="translate(400,205)">
+    <rect x="-70" y="-30" width="140" height="60" rx="10" fill="#ffb900"/>
+    <circle cx="-40" cy="40" r="16" fill="#1a1a1a"/>
+    <circle cx="40" cy="40" r="16" fill="#1a1a1a"/>
+  </g>
+  <text x="400" y="360" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Transportation Platform</text>
+</svg>

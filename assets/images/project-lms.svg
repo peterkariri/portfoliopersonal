@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="lmsTitle">
+  <title id="lmsTitle">E-Learning Platform for Institutions</title>
+  <rect width="800" height="450" fill="#255a40"/>
+  <circle cx="400" cy="200" r="90" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(400,205)">
+    <path d="M-70 -10 L0 -45 L70 -10 L0 25 Z" fill="#ffb900"/>
+    <path d="M-40 5 V45 Q0 65 40 45 V5" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="400" y="360" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">E-Learning Platform</text>
+</svg>

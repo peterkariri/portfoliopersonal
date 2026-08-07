@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="mpesaTitle">
+  <title id="mpesaTitle">M-Pesa Daraja API Integration</title>
+  <rect width="800" height="450" fill="#255a40"/>
+  <circle cx="400" cy="200" r="90" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(400,205)">
+    <rect x="-30" y="-55" width="60" height="110" rx="10" fill="#ffffff"/>
+    <rect x="-24" y="-42" width="48" height="70" rx="2" fill="#255a40"/>
+    <circle cx="0" cy="40" r="4" fill="#ffffff"/>
+  </g>
+  <path d="M470 205 h60 M470 185 h60 M470 225 h60" stroke="#ffb900" stroke-width="6" stroke-linecap="round"/>
+  <text x="400" y="360" text-anchor="middle" font-family="Outfit, Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">M-Pesa API Integration</text>
+</svg>
