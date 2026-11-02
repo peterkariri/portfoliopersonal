@@ -64,6 +64,9 @@
         { sel: '.about:not(.about-light) .about-image-container, .about-light .about-content', variant: 'from-left' },
         { sel: '.about:not(.about-light) .about-content, .about-light .about-image-container', variant: 'from-right' },
         { sel: '.showcase-viewport', variant: 'zoom' },
+        { sel: '.case-shot', variant: 'zoom' },
+        { sel: '.case-overview, .case-next', variant: '' },
+        { sel: '.case-facts', variant: 'from-right' },
     ];
 
     const observer = new IntersectionObserver((entries) => {
