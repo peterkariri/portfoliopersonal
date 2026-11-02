@@ -6,7 +6,7 @@
     </linearGradient>
     <linearGradient id="si-s" x1="0.15" y1="0" x2="0.85" y2="1">
       <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="0.5" stop-color="#2fb37a"/>
       <stop offset="1" stop-color="#ffb900"/>
     </linearGradient>
   </defs>

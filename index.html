@@ -55,6 +55,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
 </head>
 <body>
 
@@ -62,9 +63,10 @@
 
     <!-- Navigation -->
     <nav class="navbar" aria-label="Main Navigation">
-        <div class="logo">
-            <span class="logo-icon">P</span> Peter.
-        </div>
+        <a href="index.html" class="logo" aria-label="Spectre Innovations, home">
+            <img src="assets/brand/spectre-icon.svg" class="logo-mark" width="40" height="40" alt="">
+            <span class="logo-text"><span class="logo-name">SPECTRE</span><span class="logo-sub">INNOVATIONS</span></span>
+        </a>
         <ul class="nav-links" id="primary-nav">
             <li><a href="index.html" class="active" aria-current="page">Home</a></li>
             <li><a href="index.html#services">Services</a></li>
@@ -82,19 +84,26 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
+        <div class="hero-blobs" aria-hidden="true">
+            <span class="blob blob-1"></span>
+            <span class="blob blob-2"></span>
+            <span class="blob blob-3"></span>
+        </div>
         <div class="hero-content">
             <div class="greeting-box">Hello There!</div>
             <h1>I'm <span class="highlight-text">Peter Njuguna,</span><br>Technology Programme Manager<br>&amp; Full-Stack Developer.</h1>
+            <p class="hero-rotator">I build <span class="rotator" data-words="web apps that ship|EdTech programmes|developer communities|sites people love">web apps that ship</span></p>
             <p>Five-plus years building on the MERN stack and running technology education programmes across Kenya, from a single codebase to a six-county rollout reaching thousands of learners. Currently open to freelance work and full-time roles.</p>
             <div class="hero-buttons">
                 <a href="projects.html" class="btn btn-primary">
                     View My Portfolio
-                    <span class="icon-circle">▶</span>
+                    <span class="icon-circle">→</span>
                 </a>
                 <a href="contact.html" class="btn btn-secondary">Hire Me</a>
             </div>
         </div>
         <div class="hero-image-container">
+            <span class="hero-ring" aria-hidden="true"></span>
             <div class="yellow-circle-bg">
                 <img src="assets/images/peter-CWe8EZrZ.jpg" alt="Peter Njuguna" class="hero-img">
                 <div class="floating-badge top-right">Programme Manager</div>
@@ -134,6 +143,9 @@
         <div class="services-grid">
             <!-- Card 1 -->
             <div class="service-card">
+                <div class="service-media">
+                    <img src="assets/images/stock-code.jpg" alt="Code on a laptop screen" loading="lazy" width="1000" height="640">
+                </div>
                 <div class="service-icon">
                     <img src="https://api.iconify.design/bx:layer.svg?color=%23255a40" alt="">
                 </div>
@@ -144,6 +156,9 @@
 
             <!-- Card 2 -->
             <div class="service-card">
+                <div class="service-media">
+                    <img src="assets/images/stock-wireframe.jpg" alt="Sketching a website layout on paper" loading="lazy" width="1000" height="640">
+                </div>
                 <div class="service-icon">
                     <img src="https://api.iconify.design/bx:code-alt.svg?color=%23255a40" alt="">
                 </div>
@@ -154,12 +169,72 @@
 
             <!-- Card 3 -->
             <div class="service-card">
+                <div class="service-media">
+                    <img src="assets/images/stock-training.jpg" alt="Two developers working together at a laptop" loading="lazy" width="1000" height="640">
+                </div>
                 <div class="service-icon">
                     <img src="https://api.iconify.design/bx:group.svg?color=%23255a40" alt="">
                 </div>
                 <h3>Training &amp; Programme Management</h3>
                 <p>Designing and running technical training and EdTech programmes, from curriculum to delivery at scale.</p>
                 <a href="cv.html" class="learn-more">Learn more →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Work Showcase -->
+    <section class="showcase" aria-labelledby="showcase-heading">
+        <div class="section-header">
+            <div>
+                <span class="section-subtitle">- Featured Work</span>
+                <h2 id="showcase-heading">Live Sites I've <span class="highlight-text">Built</span></h2>
+            </div>
+            <a href="projects.html" class="btn btn-primary btn-small">
+                All Projects <span class="icon-circle">→</span>
+            </a>
+        </div>
+        <div class="showcase-viewport">
+            <div class="showcase-track">
+                <a class="showcase-card" href="https://haliaccess.org/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/project-hali-access.jpg" alt="HALI Access Network website" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>HALI Access Network</strong><small>Nonprofit • Scholarships</small></span>
+                </a>
+                <a class="showcase-card" href="https://www.efac.org/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/project-efac.jpg" alt="EFAC website" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>EFAC</strong><small>Nonprofit • Education</small></span>
+                </a>
+                <a class="showcase-card" href="https://globalhealthworld.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/project-global-health.jpg" alt="Global Health Mentorships website" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>Global Health Mentorships</strong><small>Mentorship Platform</small></span>
+                </a>
+                <a class="showcase-card" href="https://dazzling-gingersnap-b591b1.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/project-rentora.jpg" alt="Rentora website" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>Rentora</strong><small>Property Listings</small></span>
+                </a>
+                <a class="showcase-card" href="https://eli-bakers-beta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/images/project-eli-bakers.jpg" alt="Eli Baker's website" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>Eli Baker's</strong><small>Small Business</small></span>
+                </a>
+                <a class="showcase-card" href="https://haliaccess.org/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+                    <img src="assets/images/project-hali-access.jpg" alt="" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>HALI Access Network</strong><small>Nonprofit • Scholarships</small></span>
+                </a>
+                <a class="showcase-card" href="https://www.efac.org/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+                    <img src="assets/images/project-efac.jpg" alt="" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>EFAC</strong><small>Nonprofit • Education</small></span>
+                </a>
+                <a class="showcase-card" href="https://globalhealthworld.netlify.app/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+                    <img src="assets/images/project-global-health.jpg" alt="" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>Global Health Mentorships</strong><small>Mentorship Platform</small></span>
+                </a>
+                <a class="showcase-card" href="https://dazzling-gingersnap-b591b1.netlify.app/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+                    <img src="assets/images/project-rentora.jpg" alt="" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>Rentora</strong><small>Property Listings</small></span>
+                </a>
+                <a class="showcase-card" href="https://eli-bakers-beta.vercel.app/" target="_blank" rel="noopener noreferrer" aria-hidden="true" tabindex="-1">
+                    <img src="assets/images/project-eli-bakers.jpg" alt="" loading="lazy" width="1280" height="800">
+                    <span class="showcase-info"><strong>Eli Baker's</strong><small>Small Business</small></span>
+                </a>
             </div>
         </div>
     </section>
@@ -235,13 +310,24 @@
         </div>
     </section>
 
+    <!-- Call to Action -->
+    <section class="cta-band" aria-labelledby="cta-heading">
+        <div class="cta-bg" aria-hidden="true"><img src="assets/images/stock-team.jpg" alt="" loading="lazy" width="1000" height="640"></div>
+        <div class="cta-inner">
+            <span class="section-subtitle">- Spectre Innovations</span>
+            <h2 id="cta-heading">Got an idea? <span class="highlight-text">Let's build it.</span></h2>
+            <p>Websites, web apps and tech programmes, from first sketch to launch.</p>
+            <a href="contact.html" class="btn btn-primary btn-glow">Start a Project <span class="icon-circle">→</span></a>
+        </div>
+    </section>
+
     </main>
 
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-top">
             <div class="footer-brand">
-                <div class="logo"><span class="logo-icon">P</span> Peter.</div>
+                <a href="index.html" class="logo" aria-label="Spectre Innovations, home"><img src="assets/brand/spectre-icon.svg" class="logo-mark" width="40" height="40" alt=""><span class="logo-text"><span class="logo-name">SPECTRE</span><span class="logo-sub">INNOVATIONS</span></span></a>
                 <p>Technology Programme Manager &amp; Full-Stack Developer building software and technology education programmes across Kenya.</p>
             </div>
             <div class="footer-col">
@@ -277,5 +363,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/motion.js"></script>
 </body>
 </html>

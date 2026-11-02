@@ -29,6 +29,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/motion.css">
 </head>
 <body class="page-projects">
 
@@ -36,9 +37,10 @@
 
     <!-- Navigation -->
     <nav class="navbar" aria-label="Main Navigation">
-        <div class="logo">
-            <span class="logo-icon">P</span> Peter.
-        </div>
+        <a href="index.html" class="logo" aria-label="Spectre Innovations, home">
+            <img src="assets/brand/spectre-icon.svg" class="logo-mark" width="40" height="40" alt="">
+            <span class="logo-text"><span class="logo-name">SPECTRE</span><span class="logo-sub">INNOVATIONS</span></span>
+        </a>
         <ul class="nav-links" id="primary-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html#services">Services</a></li>
@@ -266,7 +268,7 @@
     <footer class="site-footer">
         <div class="footer-top">
             <div class="footer-brand">
-                <div class="logo"><span class="logo-icon">P</span> Peter.</div>
+                <a href="index.html" class="logo" aria-label="Spectre Innovations, home"><img src="assets/brand/spectre-icon.svg" class="logo-mark" width="40" height="40" alt=""><span class="logo-text"><span class="logo-name">SPECTRE</span><span class="logo-sub">INNOVATIONS</span></span></a>
                 <p>Technology Programme Manager &amp; Full-Stack Developer building software and technology education programmes across Kenya.</p>
             </div>
             <div class="footer-col">
@@ -302,5 +304,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/motion.js"></script>
 </body>
 </html>
