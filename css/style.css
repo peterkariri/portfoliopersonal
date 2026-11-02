@@ -348,7 +348,7 @@ h2 {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url('https://api.iconify.design/bx:check-circle.svg?color=%23ffb900');
+    background-image: url('../assets/icons/check-circle.svg');
     background-size: cover;
 }
 
