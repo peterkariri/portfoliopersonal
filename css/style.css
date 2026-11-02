@@ -1136,3 +1136,32 @@ h2 {
         gap: 2.5rem;
     }
 }
+
+/* Featured project + live site screenshots */
+.project-card-full { position: relative; }
+
+.project-card-featured {
+    outline: 3px solid var(--primary-yellow);
+    outline-offset: -3px;
+    box-shadow: 0 14px 40px rgba(255, 185, 0, 0.25);
+}
+
+.project-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 2;
+    background-color: var(--primary-yellow);
+    color: #1a1a1a;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-img-screenshot img {
+    object-position: top center;
+    border-bottom: 1px solid #eee;
+}
